@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@300&family=Noto+Sans:wght@400;500&family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Mukta", sans-serif;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+section {
+  margin: 2rem 1rem;
+  background-image: url("../Images/Header.jpg");
+  background-size: 1000px;
+  background-repeat: repeat-x;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  border: 2px solid blueviolet;
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  width: 1000px;
+  height: 600px;
+}
+
+nav h2 {
+  color: rgb(32, 30, 30);
+  font-size: 4rem;
+  padding: 3rem 4rem;
+  line-height: 5rem;
+}
+
+nav p {
+  color: aliceblue;
+  font-size: 2rem;
+  margin: -4rem 9rem;
+}
+
+.boxs {
+  background-color: red;
+  margin: 1rem 0rem 0rem 3.5rem;
+  height: 200px;
+  width: 230px;
+  opacity: 0.4;
+}
+
+.container {
+  margin: 1rem 0rem 0rem 10rem;
+  text-align: left;
+}
+
+.paragraph {
+  margin: 1.5rem;
+  text-align: right;
+  margin-right: 4rem;
+  margin-top: -1rem;
+}
+
+.figures {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.figures h2 {
+  font-size: 6rem;
+  opacity: 0.8rem;
+  margin-bottom: -1rem;
+  margin-right: -2rem;
+}
+
+.Box b {
+  color: red;
+  font-size: 6rem;
+}
+
+.Box c {
+  font-weight: 700;
+}
+
+.customer {
+  margin: 1rem 0rem 0rem 2rem;
+}
+
+.pictures {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.pic1 {
+  background-image: url("../Images/cement.jfif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 500px 400px;
+  width: 400px;
+  height: 500px;
+}
+
+.pictures h2 {
+  margin: 16rem 0rem 0rem 1rem;
+}
+.pictures p {
+  margin: 1rem;
+}
+
+.pic2 {
+  background-image: url("../Images/mine.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 500px 400px;
+  width: 400px;
+  height: 500px;
+}
+
+.pic3 {
+  background-image: url("../Images/rybber.jpg.crdownload");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 500px 400px;
+  width: 400px;
+  height: 500px;
+}
+
+.numbers {
+  background-image: url("../Images/wheeels.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 1200px 700px;
+  width: 700px;
+  height: 400px;
+  margin-left: 14rem;
+  text-align: left;
+}
+
+.content {
+  margin: 5rem 0rem 0rem 5rem;
+}
+.article {
+  display: flex;
+  justify-content: space-around;
+}
+.article h2,
+.article p {
+  color: white;
+}
+
+/* contact page style */
+.contact {
+  margin: 3rem 0rem 0rem 10rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8rem;
+}
+form > div > input {
+  width: 80%;
+  height: 20px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid rgb(150, 146, 146);
+  padding: 0 1rem;
+  /* margin-left:1rem; */
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* links page starts */
+footer {
+  font-family: "Mukta", sans-serif;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2rem;
+  background-color: rgb(44, 42, 42);
+  color: white;
+  padding: 2rem;
+}
+
+.about {
+  margin-top: 1rem;
+}
+.about h3 {
+  margin: 0.5rem;
+}
+
+.industry {
+  display: flex;
+}
+
+.links {
+  margin: 1rem;
+}
+
+.links i {
+  padding: 0.4rem;
+  margin-left: 50px;
+}
+
+/* mobile responsive */
+
+@media (max-width: 360px) {
+  section {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    border: 2px solid blueviolet;
+    font-family: "Poppins", sans-serif;
+  }
+  .numbers {
+    background-size: 500px 700px;
+    width: 100%;
+    height: 100%;
+    margin-left: 5rem;
+  }
+}
